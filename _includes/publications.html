@@ -18,14 +18,22 @@
 
   {% for publication in publications.papers %}
   <div class="item">
-    {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
-    {% else %}
-      <li>{{ publication.title }}</li>
-    {% endif %}
-    <div class="publication-authors">{{ publication.authors }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
-  </div><!--//item-->
+    <div class="row">
+      <div class="col-sm-10">              
+        <a href="{{ publication.url }}">{{ publication.title }}</a>
+        <div class="publication-authors">{{ publication.authors }}</div>
+        <div class="publication-conference">
+          {{ publication.journaltitle }}, 
+          {{ publication.year }} 
+          DOI:{{ publication.doi }} 
+        </div>
+      </div>
+      <div class="col-sm-2" style=>
+        <span class="__dimensions_badge_embed__" data-doi="{{ publication.doi }}" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>        
+      </div>
+    
+    </div><!--//item-->
+  </div><!--//row-->
   {% endfor %}
 
 </section><!--//section-->

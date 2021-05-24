@@ -1,11 +1,18 @@
 {% assign projects = site.data.data.projects %}
+
+{% comment %}
+
+I'm reusing this include for courses 
+
+{% endcomment %}
+
 {% if projects %}
 <section class="section projects-section">
 
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-award fa-stack-1x fa-inverse"></i>
     </span>
     {{ projects.title }}
   </h2>
@@ -17,19 +24,24 @@
   {% endif %}
 
   {% for project in projects.assignments %}
+
+  
     <div class="item">
 
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
+      <div class="upper-row">
+        <h3 class="job-title">          
+          {{ project.title }}
+        </h3>
+        <div class="time">{{ project.year }}</div>
+      </div><!--//upper-row-->      
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
+      <div class="company">
+        {% if project.certified %} 
+        <a target="_blank" href="{{project.certificate_url}}">{{ project.certified }}</a> 
+        {% else %}
+          {{ project.company }}
+        {% endif %}
+      </div>
 
     </div><!--//item-->
   {% endfor %}
