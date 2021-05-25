@@ -83,8 +83,16 @@ experiences_past:
       tag : teaching
       time: August, 2017 - July, 2019
       company: Introductory Bioinformatics, Universidad Nacional de San Martin
+      company_url : https://bioinformatica-iib.github.io/introduccion-bioinformatica/tps/
       details: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at turpis accumsan, dignissim arcu sit amet, convallis eros. Maecenas vestibulum auctor vehicula. Donec ornare molestie tellus, a tincidunt sapien dignissim condimentum. Ut vel nunc gravida, iaculis urna posuere, fermentum neque. Praesent hendrerit ultrices risus a vehicula. Aliquam finibus nunc non augue accumsan, sed dapibus risus facilisis. Mauris eros dolor, pretium fermentum orci quis, imperdiet posuere ipsum. Vestibulum at ornare enim. Curabitur porttitor maximus nisi in auctor.       
+    - role: Teaching Assistant
+      tag : teaching
+      time: November, 2018
+      company: Working with Pathogen Geneomes, Wellcome Trust Overseas Courses
+      company_url : https://coursesandconferences.wellcomeconnectingscience.org/event/working-with-pathogen-genomes-montevideo-uruguay-20181111/
+      details: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at turpis accumsan, dignissim arcu sit amet, convallis eros. Maecenas vestibulum auctor vehicula. Donec ornare molestie tellus, a tincidunt sapien dignissim condimentum. Ut vel nunc gravida, iaculis urna posuere, fermentum neque. Praesent hendrerit ultrices risus a vehicula. Aliquam finibus nunc non augue accumsan, sed dapibus risus facilisis. Mauris eros dolor, pretium fermentum orci quis, imperdiet posuere ipsum. Vestibulum at ornare enim. Curabitur porttitor maximus nisi in auctor.               
     - role: Lead-technician, QC Department
       tag : industry
       time: November, 2014 - April, 2016
@@ -92,11 +100,11 @@ experiences_past:
       company_url : http://www.pb-l.com.ar/
       details: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at turpis accumsan, dignissim arcu sit amet, convallis eros. Maecenas vestibulum auctor vehicula. Donec ornare molestie tellus, a tincidunt sapien dignissim condimentum. Ut vel nunc gravida, iaculis urna posuere, fermentum neque. Praesent hendrerit ultrices risus a vehicula. Aliquam finibus nunc non augue accumsan, sed dapibus risus facilisis. Mauris eros dolor, pretium fermentum orci quis, imperdiet posuere ipsum. Vestibulum at ornare enim. Curabitur porttitor maximus nisi in auctor.       
-    - role: Undergraduate Fellow
+    - role: Undergraduate CIN/CIC Fellow
       tag : academia
       time: March, 2013 - November, 2014
       company_url : #
-      company: Universidad Nacional de Quilmes, Lab. of Genetic Engineering and & Molecular Biology
+      company: Lab. of Genetic Engineering and & Molecular Biology (UNQ)
       details: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at turpis accumsan, dignissim arcu sit amet, convallis eros. Maecenas vestibulum auctor vehicula. Donec ornare molestie tellus, a tincidunt sapien dignissim condimentum. Ut vel nunc gravida, iaculis urna posuere, fermentum neque. Praesent hendrerit ultrices risus a vehicula. Aliquam finibus nunc non augue accumsan, sed dapibus risus facilisis. Mauris eros dolor, pretium fermentum orci quis, imperdiet posuere ipsum. Vestibulum at ornare enim. Curabitur porttitor maximus nisi in auctor.              
     - role: Ecommerce QA Manager
@@ -106,6 +114,7 @@ experiences_past:
       company_url : https://www.gameloft.com
       details: |
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at turpis accumsan, dignissim arcu sit amet, convallis eros. Maecenas vestibulum auctor vehicula. Donec ornare molestie tellus, a tincidunt sapien dignissim condimentum. Ut vel nunc gravida, iaculis urna posuere, fermentum neque. Praesent hendrerit ultrices risus a vehicula. Aliquam finibus nunc non augue accumsan, sed dapibus risus facilisis. Mauris eros dolor, pretium fermentum orci quis, imperdiet posuere ipsum. Vestibulum at ornare enim. Curabitur porttitor maximus nisi in auctor.                      
+        
 projects:
     title: Courses
     intro: >
@@ -150,6 +159,13 @@ publications:
     title: Publications
     intro: |
       A list of the latest publications, sorted by year of publication in descending order.
+    books :
+      - title : "VIDA.EXE: Desafíos y aventuras de la bioinformática"
+        url : https://fce.com.ar/tienda/proximos/vida-exe/
+        doi : "ISBN:9789877192056"
+        journaltitle : Fondo de Cultura Económica
+        authors : Gonzalez, German; Landaburu, Lionel; Palopoli, Nicolas
+        year : 2021
     papers:
       - title : "TDR Targets 6: driving drug discovery for human pathogens through intensive chemogenomic data integration"        
         url : https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz999/5611677
@@ -176,32 +192,6 @@ publications:
         journaltitle : Scientific Reports
         authors : Salas-Sarduy, Emir; Landaburu, Lionel; Karpiak, Joel;  Madauss, Kevin P.;  Cazzulo, Juan José; Agüero, Fernán; Alvarez, Vanina Eder
         year : 2017
-        
-    
-
-
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Adapted from <a href="https://github.com/sharu725/online-cv" target="_blank" rel="nofollow">Sharu725</a>

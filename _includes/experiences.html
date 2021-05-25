@@ -16,20 +16,21 @@
 
       <div class="meta">
         <div class="upper-row">
-          <h3 class="job-title">
-            <span class="rounded-pill bg-{{ experience.tag }} badge"> {{ experience.tag | capitalize  }} </span>            
+          <h3 class="job-title">                     
             {{ experience.role }}            
-          </h3>
-          
+          </h3>          
           <div class="time">{{ experience.time }}</div>
         </div><!--//upper-row-->
 
         <div class="company">
+          <span class="rounded-pill bg-{{ experience.tag }} badge"> {{ experience.tag | capitalize  }} </span>
           {% if experience.company %} 
-            <a target="_blank" href="{{experience.company_url }}">{{ experience.company }}</a> 
+          <div style="border-left:solid 1px #666; display: inline-block ; margin:5px;">
+            <a style="padding-left:10px; font-weight:600" target="_blank" href="{{experience.company_url }}">{{ experience.company }}</a> 
           {% else %}
             {{ experience.company }}
           {% endif %}
+          </div>
         </div>
 
       </div><!--//meta-->
@@ -62,21 +63,22 @@
       <div class="meta">
 
         <div class="upper-row">
-          <h3 class="job-title">
-            <span class="rounded-pill bg-{{ experience.tag }} badge"> {{ experience.tag | capitalize }} </span>    
+          <h3 class="job-title">            
             {{ experience.role }}            
           </h3>
           <div class="time">{{ experience.time }}</div>
         </div><!--//upper-row-->
-
+        
         <div class="company">
+          <span class="rounded-pill bg-{{ experience.tag }} badge"> {{ experience.tag | capitalize  }} </span>
           {% if experience.company %} 
-          <a target="_blank" href="{{experience.company_url}}">{{ experience.company }}</a> 
+          <div style="border-left:solid 1px #666; display: inline-block ; margin:5px;">
+            <a style="padding-left:10px; font-weight:600" target="_blank" href="{{experience.company_url }}">{{ experience.company }}</a> 
           {% else %}
             {{ experience.company }}
           {% endif %}
+          </div>
         </div>
-      </div><!--//meta-->
 
       {% if experience.details %}
       <div class="details">
