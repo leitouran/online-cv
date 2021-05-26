@@ -29,6 +29,7 @@
 
 .skill-data {
     background-color: #c4b700!important;
+    
 }
 .skill-bio {
     background-color: #7fc400!important;
@@ -67,7 +68,7 @@ top: 0;
 left: 0;
 right: 0;
 bottom: 0;
-background-color: #ccc;
+
 -webkit-transition: .4s;
 transition: .4s;
 border: 1px #FFF solid;
@@ -85,6 +86,7 @@ background-color: white;
 transition: .4s;
 }
 
+
 .config-data:checked + .slider {
     background-color: #c4b700!important;
 }
@@ -98,17 +100,21 @@ transition: .4s;
     background-color: #4580da!important;
 }
 
-.config-data:focus + .slider {
-    background-color: #c4b700!important;
+.config-data:not(:checked) + .slider {
+    box-shadow: -2px -2px #c4b700;
+    border-color: #c4b700!important;
 }
-.config-bio:focus + .slider {
-    background-color: #7fc400!important;
+.config-bio:not(:checked) + .slider {
+    box-shadow: -2px -2px #7fc400;
+    border-color: #7fc400!important;
 }
-.config-dev:focus + .slider {
-    background-color: #1da1aa!important;
+.config-dev:not(:checked) + .slider {
+    box-shadow: -2px -2px #1da1aa;
+    border-color: #1da1aa!important;
 }
-.config-soft:focus + .slider {
-    background-color: #4580da!important;
+.config-soft:not(:checked) + .slider {
+    box-shadow: -2px -2px #4580da;
+    border-color: #4580da!important;
 }
 
 .config:checked + .slider:before {
@@ -138,7 +144,7 @@ border-radius: 50%;
 #config {
     text-align:center; 
     padding:15px 0;
-    background-color:#666;
+    background-color:#333;
 }
 
 .legend {
