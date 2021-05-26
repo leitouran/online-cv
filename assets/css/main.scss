@@ -49,7 +49,7 @@
 position: relative;
 display: inline-block;
 width: 40px;
-height: 22px;
+height: 24px;
 }
 
 /* Hide default HTML checkbox */
@@ -70,6 +70,7 @@ bottom: 0;
 background-color: #ccc;
 -webkit-transition: .4s;
 transition: .4s;
+border: 1px #FFF solid;
 }
 
 .slider:before {
@@ -85,17 +86,17 @@ transition: .4s;
 }
 
 input:checked + .slider {
-background-color: #2196F3;
+background-color: #4580da;
 }
 
 input:focus + .slider {
-box-shadow: 0 0 1px #2196F3;
+box-shadow: 0 0 1px #4580da;
 }
 
 input:checked + .slider:before {
--webkit-transform: translateX(15px);
--ms-transform: translateX(15px);
-transform: translateX(15px);
+-webkit-transform: translateX(14px);
+-ms-transform: translateX(14px);
+transform: translateX(14px);
 }
 
 /* Rounded sliders */
@@ -114,4 +115,10 @@ border-radius: 50%;
 .summary-grayed {
     color: #CCC !important;
     font-weight:300;
+}
+
+#config {
+    text-align:center; 
+    padding:15px 0;
+    background-color:#666;
 }

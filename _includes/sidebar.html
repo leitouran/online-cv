@@ -16,7 +16,15 @@
     {% endif %}
 
   </div><!--//profile-container-->
-
+  <!-- Rounded switch -->
+  <div id="config">
+  <label class="switch"> 
+    <input id="toggleFullDescriptions" type="checkbox">
+      <span class="slider round"></span>
+      
+    </label>
+    <span style="position:relative;top:2px">Display full job descriptions</span>
+  </div>
   {% include contact.html %}
 
   {% if sidebar.education %}
@@ -24,7 +32,7 @@
   {% endif %}
 
   {% include language.html %}
-  {% include interests.html %}
+  {% comment %}{%include interests.html %}{%endcomment%}
 
   {% if sidebar.about %}
     {% include about.html %}

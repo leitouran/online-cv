@@ -3,8 +3,7 @@
 
 {% if experiences_current %}
 <section class="section experiences-section">
-  <div class="row">
-  <div class="col-md-6">
+
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
@@ -12,17 +11,8 @@
     </span>
     Current Employment
   </h2>
-  </div>  
-  <div class="col-md-6" style="text-align:right;">
-  <!-- Rounded switch -->
-    <label class="switch"> 
-    <input id="toggleFullDescriptions" type="checkbox">
-      <span class="slider round"></span>
-      
-    </label>
-    Display full job descriptions
-  </div>
-  </div>
+
+
 
   {% for experience in experiences_current %}
     <div class="item">
@@ -121,6 +111,9 @@
         </div>
 
       {% if experience.details %}
+      <div class="exp-summary">
+        {{ experience.summary | markdownify }}
+      </div><!--//details-->      
       <div class="details">
         {{ experience.details | markdownify }}
       </div><!--//details-->

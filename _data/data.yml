@@ -104,6 +104,8 @@ experiences_current:
       company_url : https://dwid.ar/en/
       details: |
         Co-Founder of a Data Science company, focused on bringing the scientific mindset to business decision making and the development of data-driven products. My role in the company could fit into the job description of a Full Stack Developer, bringing statistical models and business intelligence dashboards to life in the form of APIs or web-based applications. I also learned a thing or two of graphic design and interface development. Though I will not be taking on any new projects, I am still part of the team as an advisor. 
+      summary : |
+        Co-Founder and Full Stack Developer, creating data-driven products and solutions.
       skills : 
         - type : dev
           name : UI/UX Design          
@@ -111,13 +113,15 @@ experiences_current:
           name : Microservices Deployment                    
         - type : soft          
           name : Scientific Writing
-    - role: Chief of Practical Assigments                  
+    - role: Head of Practical Assigments                  
       tag : teaching
       time: August, 2019 - Present
       company: Bioinformatics Department, Universidad Nacional de San Martin
       company_url : https://bioinformatica-iib.github.io/introduccion-bioinformatica/tps/
       details: |
-        The position includes the responsibility of preparing practical assignment lectures and materials, as well as organizing theoretical and practical lectures. The chief is also the bridge between students and the administration. As chief, I had the personal project of renovating all learning materials for the practical assignments and making them public. This came in handy when moving to online teaching during the COVID-19 lockdown.  
+        The position includes the responsibility of preparing practical assignment lectures and materials, as well as organizing theoretical and practical lectures. The chief is also the bridge between students and the administration. As head, I had the personal project of renovating all learning materials for the practical assignments and making them public. This came in handy when moving to online teaching during the COVID-19 lockdown.  
+      summary : |
+        Preparation of practical assignment lectures and materials. Organizing classes and pratical exams.
       skills : 
         - type : soft
           name : Lecture Preparation
@@ -136,6 +140,8 @@ experiences_past:
       company_url : https://bioinformatica-iib.github.io/introduccion-bioinformatica/tps/
       details: |
         Teaching assistants are in charge of 2-3 practical assignments and take the lead during those classes. They may also update/upgrade the practical assignments they lead. During all the remaining classes, TAs help students with technical issues and questions they may have regarding the exercises. 
+      summary : |
+        Preparation of practical assignment lectures and materials.
       skills :         
         - type : soft 
           name : Lecture Preparation
@@ -150,6 +156,8 @@ experiences_past:
       company_url : https://coursesandconferences.wellcomeconnectingscience.org/event/working-with-pathogen-genomes-montevideo-uruguay-20181111/
       details: |
         As a TA for a renowned course such as the Working with Pathogen Genomes Course from the Wellcome Trust Overseas Programme, I helped students with technical difficulties during practical assignments and sometimes with the language barriers they could find when learning in a foreign language. This experience, though fairly short-lived, greatly boosted the confidence I had in my English proficiency.
+      summary : |
+        Preparation of practical assignment lectures and materials. 
       skills :           
         - type : soft 
           name : English Communication            
@@ -160,6 +168,8 @@ experiences_past:
       company_url : http://www.pb-l.com.ar/
       details: |
         *Productos Bio-Logicos* is a small argentinian biotechnology company dedicated to the production of recombinant enzymes and regular molecular biology laboratory supplies for Research-Use-Only products. I was the first Quality Control team member and the Team Leader (in a small team of two) shortly after. My responsibilities were the design and execution of all necessary experiments for the evaluation of all different products in the catalog. I also participated briefly in the R&D Team, for the creation of qPCR Master Mixes. 
+      summary: |
+        Quality control technician and team leader.
       skills :           
         - type : bio
           name : Molecular Biology
@@ -176,6 +186,8 @@ experiences_past:
       company: Lab. of Genetic Engineering and & Molecular Biology (UNQ)
       details: |
         These were the very first scholarships I earned based on my academic merits. I used them to sustain myself while conducting the experiments I needed to write my Licenciate thesis, which was about the development of a qPCR based method the diangosis and typification of Dengue virus in mosquito samples.  
+      summary: |
+        Leciciate thesis fellow. Topic: Development of a qPCR based method the diangosis and typification of Dengue virus in mosquito samples.  
       skills :           
         - type : bio
           name : Molecular Biology
@@ -192,6 +204,8 @@ experiences_past:
       company_url : https://www.gameloft.com
       details: |
         Gameloft was my very first employer and taught many of the soft skills I care about. I also learned, if only a little bit, to write simple scripts, document code and version control my work. *Ecommerce QA Manager* was actually the last of my positions in the company, coming from *QA Tester* > *QA Lead Tester* > *Ecommerce QA Tester* and finally *Ecommerce QA Manager*
+      summary: |        
+        Quality Assurance tester implemeting automation tools and white-box testing for mobile games and web-based Ecommerce endpoints.
       skills :          
         - type : dev
           name : Version Control
