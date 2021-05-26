@@ -60,6 +60,8 @@ experiences_current:
       company_url : https://www.trypanosomatics.org/
       details: |
         I am currently working towards the end of my PhD thesis. The topic of my work is the design and implementation of algorithms that rely on chemical and genomic data integration to create new drug-target hypotheses in pathogens causing a wide range of neglected diseases. We do this by creating complex, multilayer networks that connect similar entities (i.e drug-drug, target-target) through the means of physicochemical properties and functional/phylogenetic affiliations, respectively; and connecting drugs to targets using existing bioactivity data. Finally, new connections are projected between drugs and targets using the latter as starting points, creating novel putative interactions between them. We then manually curate these interactions and test trypanocide activity against *Trypanosoma cruzi* in phenotypic assays, or possible inhibition on recombinant purified enzymes in biochemical assays. 
+      summary : |
+        PhD in molecular biology and biotechnology, with solid bioinformatics background. Topic: Applied Chemogenomics for the generation of drug repurposing hypotheses in pathogens causing neglected diseases.
       skills : 
         - type : data
           name : Data parsing            
