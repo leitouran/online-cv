@@ -41,7 +41,8 @@
       </div><!--//details-->
       {% endif %}
       {% if experience.skills %}
-      <div class="skills">        
+      <div class="skills">      
+        <h4 class="skills-title"> Skills Devoloped </h4>
           {% for skill in experience.skills %}            
             <span class="badge skill-{{ skill.type }}">
               {% comment %}
@@ -64,6 +65,7 @@
 
 
     </div><!--//item-->
+    <hr>
   {% endfor %}
 
 </section><!--//section-->
@@ -108,14 +110,31 @@
       </div><!--//details-->
       {% endif %}
       {% if experience.skills %}
-      <div class="skills">
-        {% for skill in experience.skills %}
-          {{ skill.name }}
-        {% endfor %}        
+      <div class="skills">      
+        <h4 class="skills-title"> Skills Devoloped </h4>
+          {% for skill in experience.skills %}            
+            <span class="badge skill-{{ skill.type }}">
+              {% comment %}
+                {% if skill.type == "data" }
+                <i class="fas fa-cogs"></i>
+                {% elsif skill.type == "bio"}
+                <i class="fas fa-dna"></i>
+                {% elsif skill.type == "dev"}
+                <i class="fas fa-code"></i>
+                {% elsif skill.type == "soft"}
+                <i class="fas fa-code"></i>
+                {% endif %}
+                {% endif %}
+              {% endcomment %}
+              <span class="skill skill-{{ skill.type }}"> {{ skill.name }} </span>
+            </span>
+            {% endfor %}          
       </div><!--//skills-->
       {% endif %}      
 
+
     </div><!--//item-->
+    <hr>
   {% endfor %}
 
 </section><!--//section-->
