@@ -23,5 +23,6 @@ jQuery(document).ready(function($) {
 $(function(){(
     $("#toggleFullDescriptions").click(function(){
         $(".details").slideToggle()
+        $(".exp-summary").toggleClass("summary-grayed")
     })
 )});
