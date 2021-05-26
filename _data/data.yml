@@ -48,14 +48,10 @@ career-profile:
 education:
     - degree: PhD Molecular Biology and Biotechnology
       university: IIBIO – CONICET (UNSAM)
-      time: April, 2016 - Present
-      details: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at turpis accumsan, dignissim arcu sit amet, convallis eros. Maecenas vestibulum auctor vehicula. Donec ornare molestie tellus, a tincidunt sapien dignissim condimentum. Ut vel nunc gravida, iaculis urna posuere, fermentum neque. Praesent hendrerit ultrices risus a vehicula. Aliquam finibus nunc non augue accumsan, sed dapibus risus facilisis. Mauris eros dolor, pretium fermentum orci quis, imperdiet posuere ipsum. Vestibulum at ornare enim. Curabitur porttitor maximus nisi in auctor.       
+      time: April, 2016 - Present        
     - degree: Lic Biotechnology
       university: UNQ 
       time: August, 2008 - June, 2014
-      details: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at turpis accumsan, dignissim arcu sit amet, convallis eros. Maecenas vestibulum auctor vehicula. Donec ornare molestie tellus, a tincidunt sapien dignissim condimentum. Ut vel nunc gravida, iaculis urna posuere, fermentum neque. Praesent hendrerit ultrices risus a vehicula. Aliquam finibus nunc non augue accumsan, sed dapibus risus facilisis. Mauris eros dolor, pretium fermentum orci quis, imperdiet posuere ipsum. Vestibulum at ornare enim. Curabitur porttitor maximus nisi in auctor.       
 experiences_current:  
     - role: PhD Candidate
       tag: academia
@@ -63,15 +59,52 @@ experiences_current:
       company: Trypanosomatics Lab
       company_url : https://www.trypanosomatics.org/
       details: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at turpis accumsan, dignissim arcu sit amet, convallis eros. Maecenas vestibulum auctor vehicula. Donec ornare molestie tellus, a tincidunt sapien dignissim condimentum. Ut vel nunc gravida, iaculis urna posuere, fermentum neque. Praesent hendrerit ultrices risus a vehicula. Aliquam finibus nunc non augue accumsan, sed dapibus risus facilisis. Mauris eros dolor, pretium fermentum orci quis, imperdiet posuere ipsum. Vestibulum at ornare enim. Curabitur porttitor maximus nisi in auctor.       
+        I am currently working towards the end of my PhD thesis. The topic of my work is the design and implementation of algorithms that rely on chemical and genomic data integration to create new drug-target hypotheses in pathogens causing a wide range of neglected diseases. We do this by creating complex, multilayer networks that connect similar entities (i.e drug-drug, target-target) through the means of physicochemical properties and functional/phylogenetic affiliations, respectively; and connecting drugs to targets using existing bioactivity data. Finally, new connections are projected between drugs and targets using the latter as starting points, creating novel putative interactions between them. We then manually curate these interactions and test them against Trypanosoma cruzi in phenotypic assays, or in recombinant purified enzymes in biochemical assays. 
+      skills : 
+        - type : data
+          name : Data parsing            
+        - type : data          
+          name : Statistics          
+        - type : data          
+          name : Big Data
+        - type : bio
+          name : Cell Culture
+        - type : bio          
+          name : Molecular Biology
+        - type : dev
+          name : Frontend Development
+        - type : dev
+          name : Backend Development
+        - type : dev
+          name : UNIX          
+        - type : soft
+          name : Communication
+        - type : soft
+          name : Problem Solving
+        - type : soft          
+          name : Organization
+        - type : soft          
+          name : Resilience
+        - type : soft          
+          name : Work under pressure
+        - type : soft          
+          name : Confidence
+        - type : soft          
+          name : Scientific Writing  
     - role: Sc. Full Stack Developer
       tag: industry
       time: January, 2020 - Present
       company: DwiD
       company_url : https://dwid.ar/en/
       details: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at turpis accumsan, dignissim arcu sit amet, convallis eros. Maecenas vestibulum auctor vehicula. Donec ornare molestie tellus, a tincidunt sapien dignissim condimentum. Ut vel nunc gravida, iaculis urna posuere, fermentum neque. Praesent hendrerit ultrices risus a vehicula. Aliquam finibus nunc non augue accumsan, sed dapibus risus facilisis. Mauris eros dolor, pretium fermentum orci quis, imperdiet posuere ipsum. Vestibulum at ornare enim. Curabitur porttitor maximus nisi in auctor.              
-    - role: Head of practical assignments
+        Co-Founder of a data science company 
+      skills : 
+        - type : data
+          name : Data parsing    
+        - type : data          
+          name : Statistics          
+        - type : soft          
+          name : Scientific Writing        
       tag : teaching
       time: August, 2019 - Present
       company: Introductory Bioinformatics, Universidad Nacional de San Martin
