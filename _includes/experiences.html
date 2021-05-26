@@ -13,13 +13,13 @@
   </h2>
 
 
-
+  {% assign exp_counter = 0 %}
   {% for experience in experiences_current %}
-    <div class="item">
+    <div class="item" id="exp-{{ exp_counter }}">
 
       <div class="meta">
         <div class="upper-row">
-          <h3 class="job-title">                     
+          <h3 class="job-title" >                     
             {{ experience.role }}            
           </h3>          
           <div class="time">{{ experience.time }}</div>
@@ -39,11 +39,13 @@
       </div><!--//meta-->
 
       {% if experience.details %}
-      <div class="exp-summary">
+      <div class="exp-summary" id="exp-summary-{{ exp_counter }}">
         {{ experience.summary | markdownify }}
+        <button role="button" class="btn btn-link legend readmore" id="readmore-{{ exp_counter }}" expid="{{ exp_counter }}">Read More [+]</button>
       </div><!--//details-->      
-      <div class="details">
+      <div class="details" id="details-{{ exp_counter }}">
         {{ experience.details | markdownify }}
+        
       </div><!--//details-->
       {% endif %}
       {% if experience.skills %}
@@ -72,6 +74,7 @@
 
     </div><!--//item-->
     <hr>
+  {% assign exp_counter = exp_counter | plus: 1  %}
   {% endfor %}
 
 </section><!--//section-->
@@ -88,7 +91,7 @@
   </h2>
 
   {% for experience in experiences_past %}
-    <div class="item">
+  <div class="item" id="exp-{{ exp_counter }}">
 
       <div class="meta">
 
@@ -110,12 +113,16 @@
           </div>
         </div>
 
+      </div><!--//meta-->
+
       {% if experience.details %}
-      <div class="exp-summary">
+      <div class="exp-summary" id="exp-summary-{{ exp_counter }}">
         {{ experience.summary | markdownify }}
+        <button role="button" class="btn btn-link legend readmore" id="readmore-{{ exp_counter }}" expid="{{ exp_counter }}">Read More [+]</button>
       </div><!--//details-->      
-      <div class="details">
+      <div class="details" id="details-{{ exp_counter }}">
         {{ experience.details | markdownify }}
+        
       </div><!--//details-->
       {% endif %}
       {% if experience.skills %}
@@ -144,6 +151,7 @@
 
     </div><!--//item-->
     <hr>
+    {% assign exp_counter = exp_counter | plus: 1  %}
   {% endfor %}
 
 </section><!--//section-->

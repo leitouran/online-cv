@@ -17,14 +17,7 @@
 
   </div><!--//profile-container-->
   <!-- Rounded switch -->
-  <div id="config">
-  <label class="switch"> 
-    <input id="toggleFullDescriptions" type="checkbox">
-      <span class="slider round"></span>
-      
-    </label>
-    <span style="position:relative;top:2px">Display full job descriptions</span>
-  </div>
+
   {% include contact.html %}
 
   {% if sidebar.education %}
@@ -37,5 +30,53 @@
   {% if sidebar.about %}
     {% include about.html %}
   {% endif %}
+
+  <div id="config" style="position:fixed; width:inherit;bottom:0">
+    
+    <div class="configrow" >
+      <div class="col-md-9">
+      <span style="position:relative;top:2px; ">Display Data Science Skills</span>
+      </div>
+      <div class="col-md-3">
+      <label class="switch">       
+        <input class="config config-data" id="toggle-data" type="checkbox" tag="data" checked>
+        <span class="slider round"></span>        
+      </label>
+      </div>
+    </div>
+    <div class="configrow">
+        <div class="col-md-9">      
+          <span style="position:relative;top:2px; ">Display Biotech Skills</span>
+        </div>
+        <div class="col-md-3">
+          <label class="switch"> 
+            <input class="config config-bio" id="toggle-bio" type="checkbox" tag="bio" checked>
+            <span class="slider round"></span>          
+          </label>   
+        </div>
+      </div>
+      <div class="configrow">
+        <div class="col-md-9">          
+          <span style="position:relative;top:2px; ">Display Developer Skills</span>
+        </div>
+        <div class="col-md-3">
+        <label class="switch"> 
+          <input class="config config-dev" id="toggle-dev" type="checkbox" tag="dev" checked>
+          <span class="slider round"></span>
+        </label>
+        </div>
+      </div>
+      <div class="configrow">
+        <div class="col-md-9">      
+      <span style="position:relative;top:2px; ">Display Soft Skills</span>
+      </div>
+      <div class="col-md-3">
+      <label class="switch"> 
+        <input class="config config-soft" id="toggle-soft" type="checkbox" tag="soft" checked>
+        <span class="slider round"></span>
+      </label>   
+      </div>   
+    </div>
+  </div>
 
 </div><!--//sidebar-wrapper-->
