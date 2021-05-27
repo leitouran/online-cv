@@ -36,7 +36,7 @@ $(".readmore").click(function(e){
         details.toggleClass("shown")
         
         $('html, body').animate({
-            scrollTop: offset.top-20,
+            scrollTop: offset.top-70,
             scrollLeft: offset.left
         });        
     }

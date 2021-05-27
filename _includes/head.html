@@ -28,3 +28,81 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">CV <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Portfolio</a></li>        
+      </ul>      
+      <ul class="nav navbar-nav navbar-right">        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-eye"></i> View options <span class="caret"></span></a>    
+          <ul class="dropdown-menu" style="width:300px">
+            <li>
+              <div class="configrow" >
+                <div class="col-md-9 col-sm-9">
+                <span style="position:relative;top:2px; ">Show Data Science Skills</span>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                <label class="switch">       
+                  <input class="config config-data" id="toggle-data" type="checkbox" tag="data" checked>
+                  <span class="slider round"></span>        
+                </label>
+                </div>              
+            </li>
+            <li>
+              <div class="configrow">
+                <div class="col-md-9 col-sm-9">      
+                  <span style="position:relative;top:2px; ">Show Biotech Skills</span>
+                </div>
+                <div class="col-md-3">
+                  <label class="switch"> 
+                    <input class="config config-bio" id="toggle-bio" type="checkbox" tag="bio" checked>
+                    <span class="slider round"></span>          
+                  </label>   
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="configrow">
+                <div class="col-md-9">          
+                  <span style="position:relative;top:2px; ">Show Developer Skills</span>
+                </div>
+                <div class="col-md-3">
+                <label class="switch"> 
+                  <input class="config config-dev" id="toggle-dev" type="checkbox" tag="dev" checked>
+                  <span class="slider round"></span>
+                </label>
+                </div>          
+            </li>            
+            <li>
+              <div class="configrow">
+                <div class="col-md-9">      
+              <span style="position:relative;top:2px; ">Show Soft Skills</span>              
+              </div>
+              <div class="col-md-3">
+              <label class="switch"> 
+                <input class="config config-soft" id="toggle-soft" type="checkbox" tag="soft" checked>
+                <span class="slider round"></span>
+              </label>   
+              </div>   
+
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

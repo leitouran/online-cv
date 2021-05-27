@@ -141,11 +141,14 @@ border-radius: 50%;
     font-weight:300;
 }
 
-#config {
+/*#config {
+    position:fixed; 
+    width:inherit;
+    bottom:0;
     text-align:center; 
     padding:15px 0;
     background-color:#333;
-}
+}*/
 
 .legend {
     font-size:80%;
@@ -161,3 +164,12 @@ border-radius: 50%;
     display:block;
     text-align: left;    
 }
+
+#config {        
+    position:fixed;        
+    bottom:0;
+    text-align:center; 
+    padding:15px 0;
+    background-color:#333;
+}
+
