@@ -16,6 +16,34 @@
   </div><!--//intro-->
   {% endif %}
 
+  <h3 class="pub-subtitle">Featured publications</h3>
+
+  {% for publication in publications.featured %}
+  <div class="item">
+    <div class="row">
+      <div class="col-sm-3">
+        <img class="pub-img" src="{{ site.baseurl }}/assets/static/{{ publication.img }}"></img>
+      </div>
+      <div class="col-sm-9">                    
+        <a href="{{ publication.url }}">{{ publication.title }}</a>
+        <div class="publication-authors">{{ publication.authors }}</div>
+        <div class="publication-conference">
+          {{ publication.journaltitle }}, 
+          {{ publication.year }} 
+          {{ publication.doi }} 
+          {% if publication.type == 'paper' %}
+          <span class="__dimensions_badge_embed__" data-doi="{{ publication.doi }}" data-style="small_rectangle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+          {% endif %}                  
+        </div>
+
+
+      </div>
+    </div><!--//item-->
+  </div><!--//row-->
+  {% endfor %}  
+
+  <h3 class="pub-subtitle">Other publications</h3>
+
   {% for publication in publications.papers %}
   <div class="item">
     <div class="row">
@@ -28,7 +56,7 @@
           DOI:{{ publication.doi }} 
         </div>
       </div>
-      <div class="col-sm-2" style=>
+      <div class="col-sm-2" style="position:relative;top:10px">
         <span class="__dimensions_badge_embed__" data-doi="{{ publication.doi }}" data-style="small_circle" data-legend="hover-right"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>        
       </div>
     

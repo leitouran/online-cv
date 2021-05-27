@@ -272,20 +272,24 @@ publications:
     title: Publications
     intro: |
       A list of the latest publications, sorted by year of publication in descending order.
-    books :
+    featured :
       - title : "VIDA.EXE: Desafíos y aventuras de la bioinformática"
         url : https://fce.com.ar/tienda/proximos/vida-exe/
         doi : "ISBN:9789877192056"
         journaltitle : Fondo de Cultura Económica
         authors : Gonzalez, German; Landaburu, Lionel; Palopoli, Nicolas
         year : 2021
-    papers:
+        img : vidaexe.jpg
+        type : book
       - title : "TDR Targets 6: driving drug discovery for human pathogens through intensive chemogenomic data integration"        
         url : https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz999/5611677
         doi : 10.1093/nar/gkz999
         journaltitle : Nucleic Acids Research
         authors : Landaburu, Lionel; Berenstein, Ariel J; Videla, Santiago; Maru, Parag; Shanmugam, Dhanasekaran; Chernomoretz, Ariel; Agüero, Fernán
         year : 2019
+        img : m_cover.gif
+        type: paper
+    papers:        
       - title : Potent and selective inhibitors for M32 metallocarboxypeptidases identified from high-throughput screening of anti-kinetoplastid chemical boxes
         url : https://dx.plos.org/10.1371/journal.pntd.0007560
         doi : 10.1371/journal.pntd.0007560      
