@@ -46,7 +46,6 @@
       <div class="details" id="details-{{ exp_counter }}">
         {{ experience.details | markdownify }}
         
-      </div><!--//details-->
       {% endif %}
       {% if experience.skills %}
       <div class="skills">      
@@ -69,7 +68,8 @@
             </span>
             {% endfor %}          
       </div><!--//skills-->
-      {% endif %}      
+      {% endif %}    
+    </div><!--//details-->  
 
 
     </div><!--//item-->
@@ -123,7 +123,7 @@
       <div class="details" id="details-{{ exp_counter }}">
         {{ experience.details | markdownify }}
         
-      </div><!--//details-->
+      
       {% endif %}
       {% if experience.skills %}
       <div class="skills">      
@@ -147,6 +147,8 @@
             {% endfor %}          
       </div><!--//skills-->
       {% endif %}      
+
+    </div><!--//details-->
 
 
     </div><!--//item-->
