@@ -71,8 +71,16 @@ experiences_current:
           name : Data Visualization                    
         - type : data          
           name : Big Data
+        - type : data
+          name : cheminformatics
         - type : bio
           name : Cell Culture
+        - type : bio          
+          name : Medicinal Chemistry
+        - type : bio          
+          name : Drug Discovery
+        - type : bio          
+          name : Target Engagement                    
         - type : bio          
           name : Molecular Biology
         - type : dev
