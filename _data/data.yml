@@ -273,7 +273,7 @@ publications:
     intro: |
       A list of the latest publications, sorted by year of publication in descending order.
     featured :
-      - title : "VIDA.EXE: Desafíos y aventuras de la bioinformática"
+      - title : "vida.exe: Desafíos y aventuras de la bioinformática"
         url : https://fce.com.ar/tienda/proximos/vida-exe/
         doi : "ISBN:9789877192056"
         journaltitle : Fondo de Cultura Económica
