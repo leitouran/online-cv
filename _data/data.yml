@@ -121,10 +121,12 @@ experiences_current:
         - type : dev 
           name : Microservices Deployment                    
         - type : soft          
-          name : Scientific Writing
+          name : Scientific Writing       
+
+experiences_past:            
     - role: Head of Practical Assigments                  
       tag : teaching
-      time: August, 2019 - Present
+      time: August, 2019 - August 2021
       company: Bioinformatics Department, Universidad Nacional de San Martin
       company_url : https://bioinformatica-iib.github.io/introduccion-bioinformatica/tps/
       details: |
@@ -139,9 +141,7 @@ experiences_current:
         - type : soft 
           name : Teamwork          
         - type : soft 
-          name : Leadership          
-
-experiences_past:            
+          name : Leadership   
     - role: Teaching Assistant
       tag : teaching
       time: August, 2017 - July, 2019
@@ -280,7 +280,7 @@ publications:
         journaltitle : Fondo de Cultura Económica
         authors : Gonzalez, German; Landaburu, Lionel; Palopoli, Nicolas
         year : 2021
-        img : vidaexe.png
+        img : vidaexe.jpg
         type : book
       - title : "TDR Targets 6: driving drug discovery for human pathogens through intensive chemogenomic data integration"        
         url : https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkz999/5611677
