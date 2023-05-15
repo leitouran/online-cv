@@ -25,14 +25,21 @@
     <div class="item">
 
       <div class="upper-row">
-        <h3 class="project-title" style="font-weight: 700;">    
+        <h3 class="project-title" style="font-weight: 700;">
+          {% if project.certificate_url %}
           <a style="margin-right: auto"target="_blank" href="{{project.certificate_url}}">
             <!--i class="fas fa-file-pdf"></i-->
             <span class="fa-stack fa-xs">
               <i class="fas fa-circle fa-stack-2x"></i>
               <i class="fas fa-award fa-stack-1x fa-inverse"></i>
-            </span></a>
-          
+            </span>
+          </a>
+          {% else %}
+          <span class="fa-stack fa-xs">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-award fa-stack-1x"></i>
+          </span>
+          {% endif %}
           {{ project.title }}
         </h3>
         <div class="time" style="margin-top:15px;">{{ project.year }}</div>

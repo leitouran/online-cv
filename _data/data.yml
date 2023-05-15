@@ -247,27 +247,27 @@ projects:
       - title: Target Engagement in Biology and Drug Discovery 
         year: 2019
         certified : European Molecular Biology Laboratory (EMBL)
-        certificate_url: "./assets/static/target_engagement_certificate.pdf"
+        # certificate_url: "./assets/static/target_engagement_certificate.pdf"
 
       - title: "[VII Course of Molecular Biology of Trypanosomes]"
         year: 2018
         certified : Institut Pasteur Montevideo, Facultad de Ciencias
-        certificate_url: "./assets/static/CIBMT_Certificados_Uran.pdf"
+        # certificate_url: "./assets/static/CIBMT_Certificados_Uran.pdf"
       
       - title: "[Computational Biology Oriented to Pharmaceutical Design]"
         year: 2018
         certified : Universidad de Buenos Aires, Facultad de Ciencias Exactas y Naturales
-        certificate_url: "./assets/static/CELFI_certificate.pdf"     
+        # certificate_url: "./assets/static/CELFI_certificate.pdf"     
 
       - title: "[Introductory Bioinformatics]"
         year: 2018
         certified : Universidad Nacional de San Martín, Escuela de Ciencia y Tecnología
-        certificate_url: "./assets/static/Intro-Bioinfo_certificate.pdf"
+        # certificate_url: "./assets/static/Intro-Bioinfo_certificate.pdf"
 
       - title: "[Descriptive Statistics applied to Sciences]"
         year: 2012
         certified : CAICYT-CONICET
-        certificate_url: "./assets/static/CAICYT_Estadistica.pdf"        
+        # certificate_url: "./assets/static/CAICYT_Estadistica.pdf"        
 
 publications:
     title: Publications
@@ -290,7 +290,13 @@ publications:
         year : 2019
         img : m_cover.gif
         type: paper
-    papers:        
+    papers:
+      - title : "Targeting trypanosomes: how chemogenomics and artificial intelligence can guide drug discovery"
+        url : https://portlandpress.com/biochemsoctrans/article-abstract/51/1/195/232416/Targeting-trypanosomes-how-chemogenomics-and?redirectedFrom=fulltext
+        doi : 10.1042/BST20220618     
+        journaltitle : Biochemical Society Transactions
+        authors : Lionel Uran Landaburu, Mercedes Didier Garnham, Fernan Agüero
+        year : 2019            
       - title : Potent and selective inhibitors for M32 metallocarboxypeptidases identified from high-throughput screening of anti-kinetoplastid chemical boxes
         url : https://dx.plos.org/10.1371/journal.pntd.0007560
         doi : 10.1371/journal.pntd.0007560      
